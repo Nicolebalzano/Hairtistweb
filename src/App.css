@@ -137,7 +137,7 @@ header.top .flex-link a {
 .hero-title h2{
   font-size: 5em !important;
   color: rgba(240, 234, 234, 0.78);
-  font-size: larger;
+  font-size: 4em !important;
   font-family: 'Montserrat', sans-serif;
   font-weight: 900;
   line-height: 1.1;
