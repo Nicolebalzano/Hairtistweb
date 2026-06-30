@@ -58,35 +58,72 @@ header.top .flex-link a {
   color: #f7f5f5d3;
 }
 .part2 {
-  color: #ffad69; 
+  color:#cea25c; 
 }
 .logo {
-  font-size: 24px;
+  font-size:1.9em;
   font-weight: bold;
   letter-spacing: 2px;
+      text-shadow: 0 1px 25px #cea25c83;
+
 }
 .prenota-btn a{
   text-align: center;
-  font-family: 'Raleway', sans-serif;
-  letter-spacing: 3px;
+  letter-spacing: 1.5px;
   text-decoration: none;
-  color: rgba(20, 20, 20, 0.9);
+  color: rgb(12, 12, 12);
   font-weight: bold;
 }
-.prenota-btn {
+/* .prenota-btn {
   background-color: rgba(252, 208, 126, 0.82);
   border-radius: 1.5px;
-  padding: 5px 34px;
+  padding: 10px 38px;
   text-align:center ;
   border: none;
   cursor: pointer;
 }
 .prenota-btn:hover{
   transform: scale(1.06);
-    background-color: rgba(252, 222, 90, 0.81);
+    background-color: rgba(252, 222, 90, 0.8);
       box-shadow: 0px 4px 15px rgba(247, 199, 110, 0.43);
+} */
+ /* From Uiverse.io by alexroumi */ 
+div.prenota-btn {
+ padding: 10px 32px;
+ border: unset;
+ border-radius: 2px;
+ color: #212121;
+ z-index: 1;
+ background:#c7a46a;
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
 
+div.prenota-btn::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ background-color: #f1d164;
+ z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms
+}
 
+div.prenota-btn:hover {
+ color: #e8e8e8;
+}
+
+div.prenota-btn:hover::before {
+ width: 100%;
 }
 
 /* HERO */
@@ -151,6 +188,38 @@ header.top .flex-link a {
   letter-spacing: 0.15em;
   line-height: 1.7;
   color: #c9c3c3a9;
+}
+.hero-btns{
+  letter-spacing: 1.5px;
+  font-size: smaller;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.hero-btn-1{
+  text-decoration: none;
+  padding: 13px 43px;
+  background-color: #c7a46a;
+  color: black;
+}
+.hero-btn-2{
+  text-decoration: none;
+  padding: 13px 43px;
+  background-color: rgba(0, 0, 0, 0.479);
+  color: rgb(245, 240, 240);
+  border: 1px solid rgba(255, 255, 255, 0.33);
+}
+.hero-btn-1:hover{
+   transform: scale(1.02);
+  background-color: rgba(252, 222, 90, 0.69);
+   box-shadow: 0px 4px 15px rgba(247, 199, 110, 0.43);
+}
+.hero-btn-2:hover {
+  transform: scale(1.02);
+  color: #c7a46a;
+  border: 1px solid #c7a46a ;
 }
 
 
