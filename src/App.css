@@ -53,6 +53,48 @@ header.scrolled .flex-link a {
 header.top .flex-link a {
   color: rgba(245, 245, 245, 0.8);
 }
+/* header mobile */
+/* HAMBURGER */
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+  margin-left: 30px;
+}
+
+/* MOBILE MENU */
+.mobile-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50vh;
+  background: rgba(0, 0, 0, 0.69);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px;
+  gap: 13px;
+  transform: translateY(-100%);
+  transition: 0.4s ease;
+  z-index: 1000;
+}
+
+.mobile-menu.open {
+  transform: translateY(0);
+}
+
+/* LINK */
+.mobile-menu a {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 3px;
+}
+
+/* BUTTON */
 
 .part1 {
   color: #f7f5f5d3;
@@ -64,8 +106,11 @@ header.top .flex-link a {
   font-size:1.9em;
   font-weight: bold;
   letter-spacing: 2px;
-      text-shadow: 0 1px 25px #cea25c83;
+  text-shadow: 0 1px 25px #cea25c83;
 
+}
+.logo-sm{
+  display: none;
 }
 .prenota-btn a{
   text-align: center;
@@ -74,19 +119,6 @@ header.top .flex-link a {
   color: rgb(12, 12, 12);
   font-weight: bold;
 }
-/* .prenota-btn {
-  background-color: rgba(252, 208, 126, 0.82);
-  border-radius: 1.5px;
-  padding: 10px 38px;
-  text-align:center ;
-  border: none;
-  cursor: pointer;
-}
-.prenota-btn:hover{
-  transform: scale(1.06);
-    background-color: rgba(252, 222, 90, 0.8);
-      box-shadow: 0px 4px 15px rgba(247, 199, 110, 0.43);
-} */
  /* From Uiverse.io by alexroumi */ 
 div.prenota-btn {
  padding: 10px 32px;
@@ -94,11 +126,12 @@ div.prenota-btn {
  border-radius: 2px;
  color: #212121;
  z-index: 1;
- background:#c7a46a;
+ background: linear-gradient(140deg, #e0bc44, #faeba9,#f7ca36);
+
  position: relative;
  font-weight: 1000;
  font-size: 17px;
- -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 0, 0, 0.27);
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(22, 21, 21, 0.27);
  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
  transition: all 250ms;
  overflow: hidden;
@@ -111,21 +144,21 @@ div.prenota-btn::before {
  left: 0;
  height: 100%;
  width: 0;
- background-color: #f1d164;
- z-index: -1;
+ background: linear-gradient(135deg, #f0dc9d, #f1d246,#e9dcb0);
+  z-index: -1;
  -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
  box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
- transition: all 250ms
+ transition: all 450ms
 }
 
 div.prenota-btn:hover {
  color: #e8e8e8;
+ transform: scale(1.02);
 }
 
 div.prenota-btn:hover::before {
  width: 100%;
 }
-
 /* HERO */
 .hero{
   background-image: url('hero-bg.avif');
@@ -150,7 +183,7 @@ div.prenota-btn:hover::before {
 .front{
   z-index: 999;
   padding-top: 10px;
-  max-width: 50%;
+  max-width: 60%;
 }
 .unique{
   color: rgba(255, 200, 97, 0.65);
@@ -225,3 +258,124 @@ div.prenota-btn:hover::before {
 
 
 
+/* RESPONSIVE */
+@media (max-width: 600px) {
+  .hero{
+    background-image: url('hero-bg-sm.png');
+  }
+  .logo{
+    display: none;
+  }
+  .logo-sm{
+  display: inline-block;
+  font-size:1.9em;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-shadow: 0 1px 25px #cea25c83;
+  }
+  .front{
+    max-width: 90%;
+  }
+  .unique{
+    font-size: 0.57rem;
+  }
+  .hambuger-logo {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+}
+.hamburger-links {
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+  .hero-title{
+  font-size: 0.68rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  line-height: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -1px;
+  }
+  .subtitle{
+    font-size: 0.85rem;
+  }
+  .hero-btn-1{
+  font-size: 0.68rem;
+  padding: 10px 20px;
+}
+  .hero-btn-2{
+  font-size: 0.68rem;
+  padding: 10px 20px;
+}
+.prenota-btn {
+  display: none;
+}
+.prenota-btn-sm a{
+  text-align: center;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+  font-weight: bold;
+}
+ /* From Uiverse.io by alexroumi */ 
+div.prenota-btn-sm {
+ padding: 10px 32px;
+ width: 90%;
+ color: black;
+ border: unset;
+ text-align: center;
+ border-radius: 2px;
+ color: #212121;
+ z-index: 1;
+ background: linear-gradient(140deg, #e0bc44, #faeba9,#f7ca36);
+ position: relative;
+ font-weight: 1000;
+ font-size: 17px;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(22, 21, 21, 0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 250ms;
+ overflow: hidden;
+}
+
+div.prenota-btn-sm::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 0;
+ background: linear-gradient(135deg, #f0dc9d, #f1d246,#e9dcb0);
+  z-index: -1;
+ -webkit-box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
+ transition: all 450ms
+}
+
+div.prenota-btn-sm:hover {
+ color: #e8e8e8;
+ transform: scale(1.02);
+}
+
+div.prenota-btn-sm:hover::before {
+ width: 100%;
+}
+}
+@media (max-width: 768px) {
+
+  .desktop {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .flex-header {
+    margin: 0 20px;
+  }
+
+}
