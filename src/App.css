@@ -11,7 +11,7 @@ header {
 {
   display: flex;
   margin-left: 70px;
-    margin-right: 70px;
+  margin-right: 70px;
   justify-content:space-between;
   padding: 20px;
 }
@@ -164,6 +164,7 @@ div.prenota-btn:hover::before {
   background-image: url('hero-bg.avif');
   height: 100vh;
   background-size:cover;
+  background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -266,6 +267,7 @@ div.prenota-btn:hover::before {
 @media (max-width: 600px) {
   .hero{
     background-image: url('hero-bg-sm.png');
+    background-color: rgba(0, 0, 0, 0.89);
   }
   .logo{
     display: none;
@@ -361,6 +363,11 @@ div.prenota-btn-sm:hover {
 
 div.prenota-btn-sm:hover::before {
  width: 100%;
+}
+.hamburger-as{
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
 }
 }
 @media (max-width: 768px) {

@@ -1,23 +1,24 @@
-import { useState } from 'react'
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-
 import './App.css'
-import Layout from './layout/Layout';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import Hero from './components/Hero';
+import Stripe from './components/Stripe';
 
 function App() {
-
   return (
     <>
-    <BrowserRouter>
-    <Routes>
-       <Route element={<Layout/>}>
-       <Route path="/" element={<Hero />}/>
-    </Route>
-    </Routes> 
-    </BrowserRouter>
+      <Header />
+
+      <section id="home">
+        <Hero />
+      </section>
+
+      <section id="stripe">
+        <Stripe />
+      </section>
+
+      <Footer />
     </>
   )
 }
-
-export default App
+export default App;

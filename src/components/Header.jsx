@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const Header = () => {
@@ -29,13 +28,13 @@ const Header = () => {
   <span className="part2">TIST</span>
 </h1></div>
     <div className="flex-link desktop">
-        <Link to="/">Chi siamo</Link>
-          <Link to="/">Servizi</Link>
-            <Link to="/">Galleria</Link>
-              <Link to="/">Contatti</Link>
+        <a href="/">Chi siamo</a>
+          <a href="/">Servizi</a>
+            <a href="/">Galleria</a>
+              <a href="/">Contatti</a>
         </div>
 
-    <div className="prenota-btn">  <Link to="/">Prenota</Link></div>
+    <div className="prenota-btn">  <a href="/">Prenota</a></div>
 </div>
     {/* HAMBURGER MOBILE */}
     <div className="hamburger-logo">
@@ -57,15 +56,15 @@ const Header = () => {
     <div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>
       {menuOpen ? "✕" : "☰"}
     </div>
-    <div className="hamburger-links">
-          <Link to="/" onClick={() => setMenuOpen(false)}>Chi siamo</Link>
-  <Link to="/" onClick={() => setMenuOpen(false)}>Servizi</Link>
-  <Link to="/" onClick={() => setMenuOpen(false)}>Galleria</Link>
-  <Link to="/" onClick={() => setMenuOpen(false)}>Contatti</Link>
+    <div className="hamburger-as">
+          <a href="/" onClick={() => setMenuOpen(false)}>Chi siamo</a>
+  <a href="/" onClick={() => setMenuOpen(false)}>Servizi</a>
+  <a href="/" onClick={() => setMenuOpen(false)}>Galleria</a>
+  <a href="/" onClick={() => setMenuOpen(false)}>Contatti</a>
     </div>
 
 
- <div className="prenota-btn-sm ">  <Link to="/">Prenota</Link></div>
+ <div className="prenota-btn-sm ">  <a href="/">Prenota</a></div>
 </div>
 
 </>
