@@ -255,7 +255,11 @@ div.prenota-btn:hover::before {
   border: 1px solid #c7a46a ;
 }
 
-
+.hamburger-logo{
+  display: flex;
+  justify-content: space-between;
+  max-width: 90%;
+}
 
 
 /* RESPONSIVE */
@@ -279,11 +283,6 @@ div.prenota-btn:hover::before {
   .unique{
     font-size: 0.57rem;
   }
-  .hambuger-logo {
-    display: flex;
-    justify-content: space-between;
-    max-width: 80%;
-}
 .hamburger-links {
   font-weight: bolder;
   display: flex;
