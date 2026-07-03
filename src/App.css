@@ -161,7 +161,7 @@ div.prenota-btn:hover::before {
 }
 /* HERO */
 .hero{
-  background-image: url('hero-bg-big.png');
+  background-image: url('/hero-bg-big.png');
   height: 100vh;
   background-size:cover;
   background-color: rgba(0, 0, 0, 0.5);
@@ -262,7 +262,7 @@ div.prenota-btn:hover::before {
   max-width: 90%;
 }
 .stripe{
-  padding: 30px;
+  padding: 60px 30px;
   color: rgb(223, 218, 218);
   text-align: center;
   display: flex;
