@@ -16,7 +16,6 @@ header {
   padding: 20px;
 }
 
-
 header.top {
   background: transparent;
 }
@@ -24,10 +23,11 @@ header.top {
 header.scrolled {
   background: linear-gradient(
     to bottom,
-    rgba(0, 0, 0, 0.58),
-    rgba(0, 0, 0, 0.22)
+    rgba(0, 0, 0, 0.71),
+    rgba(0, 0, 0, 0.93)
   );
   backdrop-filter: blur(6px);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.27);
 }
 
 
@@ -106,7 +106,7 @@ header.top .flex-link a {
   font-size:1.9em;
   font-weight: bold;
   letter-spacing: 2px;
-  text-shadow: 0 1px 25px #cea25c83;
+  text-shadow: 0 1px 25px #0f0f0ff6;
 
 }
 .logo-sm{
@@ -119,7 +119,7 @@ header.top .flex-link a {
   color: rgb(12, 12, 12);
   font-weight: bold;
 }
- /* From Uiverse.io by alexroumi */ 
+
 div.prenota-btn {
  padding: 10px 32px;
  border: unset;
@@ -161,7 +161,7 @@ div.prenota-btn:hover::before {
 }
 /* HERO */
 .hero{
-  background-image: url('hero-bg.avif');
+  background-image: url('hero-bg-big.png');
   height: 100vh;
   background-size:cover;
   background-color: rgba(0, 0, 0, 0.5);
@@ -261,8 +261,39 @@ div.prenota-btn:hover::before {
   justify-content: space-between;
   max-width: 90%;
 }
+.stripe{
+  padding: 30px;
+  color: rgb(223, 218, 218);
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  background-color:#111111;
+  border-top: 0.5px solid rgba(233, 229, 229, 0.28);
+  border-bottom: 0.5px solid rgba(233, 229, 229, 0.28);
+}
 
-
+.stripe-el div{
+  display: flex;
+  flex-direction: column ;
+}
+.stripe-num{
+  color: #cea25c;
+  text-shadow: 0 1px 25px #0a0a0ad7;
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size: 1.7rem;
+}
+.stripe-text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  line-height: 1.7;
+  color: #c9c3c3c9;
+}
+.stripe-sm {
+  display: none;
+}
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .hero{
@@ -322,7 +353,6 @@ div.prenota-btn:hover::before {
   color: rgb(12, 12, 12);
   font-weight: bold;
 }
- /* From Uiverse.io by alexroumi */ 
 div.prenota-btn-sm {
  padding: 10px 32px;
  width: 90%;
@@ -368,6 +398,23 @@ div.prenota-btn-sm:hover::before {
   display: flex;
   flex-direction: column;
   gap: 13px;
+}
+.stripe{
+  display: none;
+}
+.stripe-sm{
+  text-align: center;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 30px;
+  background-color:#111111;
+  border-top: 0.5px solid rgba(233, 229, 229, 0.28);
+  border-bottom: 0.5px solid rgba(233, 229, 229, 0.28);
+}
+.stripe-text{
+  font-size: 0.7rem;
+    margin-bottom: 7px;
 }
 }
 @media (max-width: 768px) {

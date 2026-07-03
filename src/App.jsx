@@ -3,6 +3,7 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Stripe from './components/Stripe';
+import ChiSiamo from './components/ChiSiamo';
 
 function App() {
   return (
@@ -15,6 +16,9 @@ function App() {
 
       <section id="stripe">
         <Stripe />
+      </section>
+        <section id="chi-siamo">
+        <ChiSiamo />
       </section>
 
       <Footer />
