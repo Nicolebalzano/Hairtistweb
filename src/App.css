@@ -288,6 +288,120 @@ div.prenota-btn:hover::before {
 .stripe-sm {
   display: none;
 }
+/* CHI SIAMO */
+.chi-siamo {
+  display: flex;
+  justify-content: space-between;
+  min-height: calc(100vh - 80px);
+  padding-bottom: 60px;
+  background-color: #171616;
+}
+.chi-siamo-1,
+.chi-siamo-2 {
+  padding: 100px;
+}
+.chi-siamo-2 .chi-siamo-p {
+  color: rgba(231, 229, 229, 0.621);
+}
+.chi-siamo-p {
+  line-height: 40px;
+  font-size: 1.2rem;
+}
+.chi-siamo-img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+.square-el {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -30px;
+  left: 300px;
+  background-color: #c69e58;
+  height: 100px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  width: fit-content;
+}
+.square-el .stripe-num {
+  color: #131212;
+  text-shadow: 0 1px 25px #0a0a0a0f;
+}
+.square-el .stripe-text {
+  color: #121111;
+  font-size: 0.5rem;
+}
+.chi-siamo-title {
+  font-size: 0.9rem;
+}
+.chi-siamo ul {
+  color: #c69e58;
+  line-height: 35px;
+}
+ul span {
+  color: rgba(255, 255, 255, 0.637);
+  font-family: "Poppins", sans-serif;
+}
+.i-nostri-servizi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #121111;
+  min-height: 100vh;
+}
+.i-nostri-servizi-1 .hero-title {
+  font-size: 0.7rem;
+}
+.i-nostri-servizi-1 {
+  padding: 50px;
+  text-align: center;
+}
+.i-nostri-servizi-2 {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  max-width: 80%;
+}
+.service-card {
+  color: rgba(243, 239, 239, 0.909);
+  padding: 50px 20px;
+  border: 1px solid rgb(49, 47, 47);
+  background-color: #1a1919;
+  transition:
+    transform 0.35s ease,
+    border 0.35s ease;
+}
+.service-card:hover {
+  border: 1px solid #c69e58;
+  transform: translateY(-8px) scale(1.02);
+}
+.service-card h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  padding: 5px;
+}
+.servizi-p {
+  line-height: 30px;
+  font-size: 0.9rem;
+  color: rgba(219, 215, 215, 0.692);
+}
+.price.unique {
+  font-size: 0.8rem;
+  letter-spacing: normal;
+}
+.icon {
+  color: #ede5e5b1;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  background-color: #212121;
+  max-width: 60px;
+  text-align: center;
+}
+
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .hero {
@@ -409,6 +523,29 @@ div.prenota-btn:hover::before {
   .stripe-text {
     font-size: 0.7rem;
     margin-bottom: 7px;
+  }
+  .chi-siamo {
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+  }
+  .square-el {
+    top: -10px;
+    left: 250px;
+    height: 50px;
+  }
+  .chi-siamo-img {
+    max-width: 80%;
+    height: auto;
+  }
+  .chi-siamo-1 {
+    padding: 30px;
+  }
+  .chi-siamo-2 {
+    padding: 30px 25px;
+  }
+  .i-nostri-servizi-2 {
+    flex-direction: column;
   }
 }
 @media (max-width: 768px) {

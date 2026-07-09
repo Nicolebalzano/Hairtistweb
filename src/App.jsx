@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Hero from './components/Hero';
 import Stripe from './components/Stripe';
 import ChiSiamo from './components/ChiSiamo';
+import OurServices from './components/OurServices';
 
 function App() {
   return (
@@ -19,6 +20,9 @@ function App() {
       </section>
         <section id="chi-siamo">
         <ChiSiamo />
+      </section>
+      <section className="i-nostri-servizi">
+        <OurServices />
       </section>
 
       <Footer />
