@@ -66,7 +66,7 @@ header.top .flex-link a {
   top: 0;
   left: 0;
   width: 100%;
-  height: 50vh;
+  min-height: 50vh;
   background: rgba(0, 0, 0, 0.69);
   display: flex;
   flex-direction: column;
@@ -158,7 +158,7 @@ div.prenota-btn:hover::before {
 /* HERO */
 .hero {
   background-image: url("/hero-bg-big.png");
-  height: 100vh;
+  min-height: 100vh;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -275,11 +275,11 @@ div.prenota-btn:hover::before {
   text-shadow: 0 1px 25px #0a0a0ad7;
   font-family: "Montserrat", sans-serif;
   font-weight: 900;
-  font-size: 1.7rem;
+  font-size: 1.7em;
 }
 .stripe-text {
   font-family: "Raleway", sans-serif;
-  font-size: 0.8rem;
+  font-size: 0.8em;
   font-weight: 400;
   letter-spacing: 0.15em;
   line-height: 1.7;
@@ -305,7 +305,7 @@ div.prenota-btn:hover::before {
 }
 .chi-siamo-p {
   line-height: 40px;
-  font-size: 1.2rem;
+  font-size: 1.2em;
 }
 .chi-siamo-img {
   max-width: 100%;
@@ -319,11 +319,11 @@ div.prenota-btn:hover::before {
   flex-direction: column;
   position: relative;
   top: -30px;
-  left: 300px;
+  left: 100px;
   background-color: #c69e58;
   height: 100px;
   padding: 10px 20px;
-  font-size: 1rem;
+  font-size: 1em;
   width: fit-content;
 }
 .square-el .stripe-num {
@@ -332,10 +332,10 @@ div.prenota-btn:hover::before {
 }
 .square-el .stripe-text {
   color: #121111;
-  font-size: 0.5rem;
+  font-size: 0.5em;
 }
 .chi-siamo-title {
-  font-size: 0.9rem;
+  font-size: 0.9em;
 }
 .chi-siamo ul {
   color: #c69e58;
@@ -354,7 +354,7 @@ ul span {
   min-height: 100vh;
 }
 .i-nostri-servizi-1 .hero-title {
-  font-size: 0.7rem;
+  font-size: 0.7em;
 }
 .i-nostri-servizi-1 {
   padding: 50px;
@@ -381,16 +381,16 @@ ul span {
 }
 .service-card h3 {
   font-family: "Montserrat", sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.1em;
   padding: 5px;
 }
 .servizi-p {
   line-height: 30px;
-  font-size: 0.9rem;
+  font-size: 0.9em;
   color: rgba(219, 215, 215, 0.692);
 }
 .price.unique {
-  font-size: 0.8rem;
+  font-size: 0.8em;
   letter-spacing: normal;
 }
 .icon {
@@ -405,7 +405,7 @@ ul span {
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .hero {
-    background-image: url("hero-bg-small.png");
+    background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
   }
   .logo {
@@ -422,7 +422,7 @@ ul span {
     max-width: 90%;
   }
   .unique {
-    font-size: 0.57rem;
+    font-size: 0.57em;
   }
   .hamburger-links {
     font-weight: bolder;
@@ -431,7 +431,7 @@ ul span {
     gap: 10px;
   }
   .hero-title {
-    font-size: 0.68rem;
+    font-size: 0.68em;
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 1;
@@ -441,14 +441,14 @@ ul span {
     letter-spacing: -1px;
   }
   .subtitle {
-    font-size: 0.85rem;
+    font-size: 0.85em;
   }
   .hero-btn-1 {
-    font-size: 0.68rem;
+    font-size: 0.68em;
     padding: 10px 20px;
   }
   .hero-btn-2 {
-    font-size: 0.68rem;
+    font-size: 0.68em;
     padding: 10px 20px;
   }
   .prenota-btn {
@@ -521,7 +521,7 @@ ul span {
     border-bottom: 0.5px solid rgba(233, 229, 229, 0.28);
   }
   .stripe-text {
-    font-size: 0.7rem;
+    font-size: 0.7em;
     margin-bottom: 7px;
   }
   .chi-siamo {
@@ -531,7 +531,7 @@ ul span {
   }
   .square-el {
     top: -10px;
-    left: 250px;
+    left: 50px;
     height: 50px;
   }
   .chi-siamo-img {
