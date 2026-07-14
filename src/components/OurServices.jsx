@@ -42,7 +42,7 @@ const OurServices = () => {
           </div>
           <div className="hero-title">
             <h2>
-              Ogni dettaglio <span className="capelli">pensato</span> per te.
+           <div></div>   Ogni dettaglio <span className="capelli">pensato per te</span>.
             </h2>{" "}
           </div>
         </div>

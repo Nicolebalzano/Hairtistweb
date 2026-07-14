@@ -355,6 +355,7 @@ ul span {
 }
 .i-nostri-servizi-1 .hero-title {
   font-size: 0.7em;
+  text-align: left;
 }
 .i-nostri-servizi-1 {
   padding: 50px;
@@ -401,12 +402,99 @@ ul span {
   max-width: 60px;
   text-align: center;
 }
+/* ESPERIENZA */
+.esperienza {
+  display: flex;
+  padding: 100px;
+  justify-content: space-evenly;
+  background-color: #0e0d0d;
+}
+
+.esperienza-1 .hero-title {
+  font-size: 0.8em;
+  padding-bottom: 30px;
+}
+.esperienza-logo-text {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.esperienza-logo-text div {
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+.esperienza-logo-text .text {
+  display: flex;
+  flex-direction: column;
+}
+.esperienza-2 {
+  display: flex;
+}
+.esperienza-2 img {
+  width: 200px;
+}
+.img-2-flex {
+  display: flex;
+  flex-direction: column;
+}
+.img-1-esperienza {
+  height: 100%;
+}
+.esperienza-logo-text .icon {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 15px;
+  margin-right: 20px;
+  color: #c69e58;
+  background-color: #38321e4f;
+}
+.text h5 {
+  font-weight: bolder;
+  color: rgb(228, 226, 226);
+}
+.text p {
+  color: #e8e8e895;
+}
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  min-width: 80%;
+}
+.item {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.item:hover img {
+  transform: scale(1.08);
+}
+.nostri-lavori{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #0e0d0d;
+  padding: 100px;
+}
 
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .hero {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
+    min-height: 100vh;
   }
   .logo {
     display: none;
@@ -547,6 +635,33 @@ ul span {
   .i-nostri-servizi-2 {
     flex-direction: column;
   }
+  .esperienza {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .esperienza-2 img {
+    width: 150px;
+  }
+  .esperienza-logo-text {
+    padding: 5px;
+  }
+  .esperienza .hero-title {
+    font-size: 0.7em;
+  }
+  .esperienza-logo-text .icon {
+    padding: 10px;
+    margin-right: 10px;
+    max-height: 50px;
+    margin-bottom: 0px;
+  }
+  .gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.nostri-lavori{
+  padding: 60px 0px;
+}
 }
 @media (max-width: 768px) {
   .desktop {
