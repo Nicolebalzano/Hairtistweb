@@ -431,8 +431,17 @@ ul span {
 .esperienza-2 {
   display: flex;
 }
+.esperienza-2 div {
+  overflow: hidden;
+  border-radius: 2px;
+}
 .esperienza-2 img {
   width: 200px;
+  transition: trasnform 0.35 ease;
+  display: block;
+}
+.esperienza-2 img:hover {
+  transform: scale(1.06);
 }
 .img-2-flex {
   display: flex;
@@ -440,6 +449,7 @@ ul span {
 }
 .img-1-esperienza {
   height: 100%;
+  object-fit: cover;
 }
 .esperienza-logo-text .icon {
   text-align: center;
@@ -460,7 +470,7 @@ ul span {
 }
 .gallery {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 20px;
   min-width: 80%;
 }
@@ -481,7 +491,7 @@ ul span {
 .item:hover img {
   transform: scale(1.08);
 }
-.nostri-lavori{
+.nostri-lavori {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -640,8 +650,9 @@ ul span {
     justify-content: center;
     align-items: center;
   }
-  .esperienza-2 img {
-    width: 150px;
+  .esperienza-2 {
+    padding-top: 50px;
+    gap: 1rem;
   }
   .esperienza-logo-text {
     padding: 5px;
@@ -655,13 +666,16 @@ ul span {
     max-height: 50px;
     margin-bottom: 0px;
   }
+  .img-2-flex {
+    gap: 1.5rem;
+  }
   .gallery {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-.nostri-lavori{
-  padding: 60px 0px;
-}
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .nostri-lavori {
+    padding: 60px 0px;
+  }
 }
 @media (max-width: 768px) {
   .desktop {

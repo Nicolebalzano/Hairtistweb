@@ -11,44 +11,34 @@ const NostriLavori = () => {
         <div className="hero-title">
           <h2>
             I nostri
-            <span className="capelli">lavori</span>.
+            <span className="capelli"> lavori</span>.
           </h2>
         </div>
 
         {/* GALLERIA */}
         <div className="gallery">
           <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/2.png" alt="" />
           </div>
           <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/3.png" alt="" />
           </div>
           <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/4.png" alt="" />
           </div>
           <div className="item">
-            <img src="/hero-bg.png" alt="" />
-          </div>
-          <div className="item">
-            <img src="/hero-bg.png" alt="" />
-          </div>
-          <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/6.jpeg" alt="" />
           </div>
            <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/7.png" alt="" />
           </div>
            <div className="item">
-            <img src="/hero-bg.png" alt="" />
+            <img src="/8.png" alt="" />
           </div>
-           <div className="item">
-            <img src="/hero-bg.png" alt="" />
-          </div>
-           <div className="item">
-            <img src="/hero-bg.png" alt="" />
-          </div>
+           
         </div>
-      </div>
+        </div>
+    
     </>
   );
 };

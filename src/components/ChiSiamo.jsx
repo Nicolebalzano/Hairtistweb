@@ -5,7 +5,7 @@ const ChiSiamo = () => {
         {/* CHI SIAMO 1 */}
         <div className="chi-siamo-1">
           <img
-            src="/chi-siamo-piega.png"
+            src="/fronte.neg.png"
             alt="donna che fa una messa in piega"
             className="chi-siamo-img"
           />
