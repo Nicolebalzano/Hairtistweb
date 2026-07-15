@@ -472,7 +472,7 @@ ul span {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
-  min-width: 80%;
+  min-width: 50%;
 }
 .item {
   width: 100%;
@@ -672,6 +672,7 @@ ul span {
   .gallery {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    min-width: 100%;
   }
   .nostri-lavori {
     padding: 60px 0px;
