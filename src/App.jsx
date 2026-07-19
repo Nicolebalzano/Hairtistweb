@@ -9,8 +9,26 @@ import Esperienza from "./components/Esperienza";
 import NostriLavori from "./components/NostriLavori";
 import Recensioni from "./components/Recensioni";
 import YourStyle from "./components/YourStyle";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add("visible");
+          }
+        });
+      },
+      { threshold: 0.2 },
+    );
+
+    const elements = document.querySelectorAll(".fade-in-up");
+    elements.forEach((el) => observer.observe(el));
+
+    return () => observer.disconnect();
+  }, []);
   return (
     <>
       <Header />
