@@ -787,7 +787,10 @@ ul span {
   .buttons-style {
     flex-direction: column;
     text-align: center;
-    width: 80%;
+    width: 90%;
+  }
+  .your-style.hero-title{
+    text-align: center;
   }
 }
 @media (max-width: 768px) {
