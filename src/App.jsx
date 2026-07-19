@@ -7,6 +7,8 @@ import ChiSiamo from "./components/ChiSiamo";
 import OurServices from "./components/OurServices";
 import Esperienza from "./components/Esperienza";
 import NostriLavori from "./components/NostriLavori";
+import Recensioni from "./components/Recensioni";
+import YourStyle from "./components/YourStyle";
 
 function App() {
   return (
@@ -31,6 +33,12 @@ function App() {
       </section>
       <section id="nostri-lavori">
         <NostriLavori />
+      </section>
+      <section id="recensioni">
+        <Recensioni />
+      </section>
+      <section id="tup-stile">
+        <YourStyle />
       </section>
 
       <Footer />
