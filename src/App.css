@@ -322,7 +322,7 @@ div.prenota-btn:hover::before {
 }
 .chi-siamo-1,
 .chi-siamo-2 {
-  padding: 100px;
+  padding: 40px;
 }
 .chi-siamo-2 .chi-siamo-p {
   color: rgba(231, 229, 229, 0.621);
@@ -606,8 +606,9 @@ ul span {
 .buttons-style {
   display: flex;
   justify-content: center;
+  align-items: center;
+  text-align: center;
   gap: 15px;
-  padding: 40px;
 }
 .buttons-style a {
   text-decoration: none;
@@ -616,7 +617,7 @@ ul span {
 .buttons-style-1 {
   color: #0e0d0dd7;
   background-color: #c7a46a;
-  padding: 15px 30px;
+  padding: 15px;
   transition: transform 3.5 ease;
   transition:
     transform 0.35s ease,
@@ -624,7 +625,8 @@ ul span {
 }
 .buttons-style-2 {
   color: #e8e8e8;
-  padding: 15px 30px;
+  padding: 15px;
+  padding-right: 30px;
   border: 0.5px solid #e6e0e096;
   transition:
     transform 0.35s ease,
@@ -636,7 +638,7 @@ ul span {
 .buttons-style-1:hover {
   transition: scale(1.07);
   background-color: #f7bd60be;
-  box-shadow: 3px 1px 21px #c6c0c059;
+  box-shadow: 3px 1px 21px #c6c0c024;
   transform: translateY(-5px) scale(1.02);
 }
 .buttons-style-2:hover {
@@ -644,7 +646,109 @@ ul span {
   color: #f7bd60be;
   transform: translateY(-5px) scale(1.02);
 }
+.vieni-a-trovarci {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #0a0a0af6;
+  padding: 50px;
+}
+.vieni-a-trovarci .hero-title {
+  font-size: 0.8rem;
+}
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  padding: 1rem;
+}
 
+.contact-card {
+  display: flex;
+  align-items: center;
+  background-color: #111;
+  color: #fff;
+  border-radius: 6px;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(255, 217, 0, 0.044);
+}
+
+.icon-box {
+  color: #d4af37;
+  padding: 0.8rem;
+  border-radius: 4px;
+  margin-right: 1rem;
+}
+
+.text-box h4 {
+  font-size: 0.8rem;
+  color: #aaa;
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+}
+
+.text-box p {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+}
+.vieni-a-trovarci-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  text-align: center;
+  background-color: #171616;
+  border: 0.3px solid rgba(255, 255, 255, 0.111);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.vieni-a-trovarci-2 .buttons-style {
+  flex-direction: column;
+  text-align: center;
+}
+.vieni-a-trovarci-2 .number {
+  color: rgba(246, 238, 225, 0.916);
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+.vieni-a-trovarci p {
+  text-align: center;
+  color: #aaaaaa8e;
+  font-size: 0.9rem;
+}
+.days {
+  color: #e6e0e0ea;
+  font-weight: bolder;
+}
+.time-days {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+  padding-right: 100px;
+  background-color: #0e0d0d;
+}
+.footer-flex .logo {
+  font-size: 1.2em;
+  font-weight: 900;
+}
+.footer-flex .text-box {
+  color: #aaaaaa62;
+  font-size: 0.8rem;
+}
 /* RESPONSIVE */
 @media (max-width: 600px) {
   .hero {
@@ -791,6 +895,10 @@ ul span {
   .i-nostri-servizi-2 {
     flex-direction: column;
   }
+  .i-nostri-servizi-1 h2{
+    padding: 0;
+    text-align: center;
+  }
   .esperienza {
     flex-direction: column;
     justify-content: center;
@@ -828,9 +936,7 @@ ul span {
   .nostri-lavori {
     padding: 60px 10px;
   }
-  .recensioni {
-    padding: 0;
-  }
+
   .recensioni .card {
     width: 90%;
   }
@@ -841,6 +947,41 @@ ul span {
   }
   .your-style.hero-title {
     text-align: center;
+  }
+  .vieni-a-trovarci {
+    flex-direction: column;
+  }
+  .vieni-a-trovarci h2{
+    text-align: center;
+  }
+  h2 {
+    padding-left: 35px;
+    padding-right: 35px;
+
+  }
+  .vieni-a-trovarci-2 {
+    padding-top: 25px;
+  }
+  .vieni-a-trovarci-2 .buttons-style {
+    flex-direction: column;
+    text-align: center;
+    min-width: 100%;
+  }
+  .buttons-style {
+    padding: 0;
+  }
+  .time-days {
+    padding-top: 30px;
+  }
+  .footer-flex {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+  }
+  .footer-flex .logo {
+    display: block;
   }
 }
 @media (max-width: 768px) {

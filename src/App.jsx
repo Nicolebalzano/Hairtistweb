@@ -10,6 +10,7 @@ import NostriLavori from "./components/NostriLavori";
 import Recensioni from "./components/Recensioni";
 import YourStyle from "./components/YourStyle";
 import { useEffect } from "react";
+import VieniTrovarci from "./components/VieniTrovarci";
 
 function App() {
   useEffect(() => {
@@ -32,11 +33,9 @@ function App() {
   return (
     <>
       <Header />
-
       <section id="home">
         <Hero />
       </section>
-
       <section id="stripe">
         <Stripe />
       </section>
@@ -45,20 +44,22 @@ function App() {
       </section>
       <section id="i-nostri-servizi">
         <OurServices />
+      </section>{" "}
+      <section id="nostri-lavori">
+        <NostriLavori />
       </section>
       <section id="esperienza">
         <Esperienza />
       </section>
-      <section id="nostri-lavori">
-        <NostriLavori />
-      </section>
       <section id="recensioni">
         <Recensioni />
       </section>
-      <section id="tup-stile">
+      <section id="tuo-stile">
         <YourStyle />
       </section>
-
+      <section id="vieni-a-trovarci">
+        <VieniTrovarci />
+      </section>
       <Footer />
     </>
   );
