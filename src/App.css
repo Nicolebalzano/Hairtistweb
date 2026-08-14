@@ -89,7 +89,7 @@ header.top .flex-link a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 95%;
   min-height: 50vh;
   background: rgba(0, 0, 0, 0.69);
   display: flex;
@@ -203,7 +203,7 @@ div.prenota-btn:hover::before {
 }
 .front {
   z-index: 999;
-  padding-top: 10px;
+  padding-top: 100px;
   max-width: 60%;
 }
 .unique {
@@ -918,7 +918,8 @@ ul span {
     display: block;
   }
   .esperienza-logo-text {
-    padding: 5px;
+    padding-left: 25px;
+    padding-right: 25px;
   }
   .esperienza .hero-title {
     font-size: 0.7em;
@@ -942,7 +943,13 @@ ul span {
   }
 .recensioni{
   padding: 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
+.recensioni-1 .unique{
+  margin-top: 30px;
+}
+
   .recensioni .card {
     width: 90%;
   }
