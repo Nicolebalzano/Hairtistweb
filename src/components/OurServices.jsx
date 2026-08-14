@@ -7,6 +7,7 @@ const OurServices = () => {
       paragrafo:
         "Studiato per esaltare la tua struttura ossea. Ogni taglio è un'opera d'arte personalizzata.",
       prezzo: "Da €45",
+      bg: "/taglio.png.jpg",
     },
     {
       icona: Palette,
@@ -14,6 +15,7 @@ const OurServices = () => {
       paragrafo:
         "Balayage, highlights e colorazioni custom. Tecnica e creatività in perfetto equilibrio.",
       prezzo: "Da €80",
+      bg: "/colore.jpg",
     },
     {
       icona: Sparkles,
@@ -21,6 +23,7 @@ const OurServices = () => {
       paragrafo:
         "Finishing impeccabile per eventi speciali o il tuo look quotidiano di impatto.",
       prezzo: "Da €35",
+      bg: "/styling.jpg",
     },
     {
       icona: Shield,
@@ -28,6 +31,7 @@ const OurServices = () => {
       paragrafo:
         "Protocolli rigeneranti avanzati per capelli forti, lucidi e straordinariamente sani.",
       prezzo: "Da €55",
+      bg: "/trattamenti.jpg",
     },
   ];
   return (
@@ -42,13 +46,22 @@ const OurServices = () => {
           </div>
           <div className="hero-title">
             <h2>
-           <div></div>   Ogni dettaglio <span className="capelli">pensato per te</span>.
+              <div></div> Ogni dettaglio{" "}
+              <span className="capelli">pensato per te</span>.
             </h2>{" "}
           </div>
         </div>
         <div className="i-nostri-servizi-2">
           {cards.map((card, index) => (
-            <div className="service-card" key={index}>
+            <div
+              className="service-card"
+              key={index}
+              style={{
+                backgroundImage: `url(${card.bg})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
               <div className="icon">
                 <card.icona size={32} strokeWidth={1.5} />
               </div>

@@ -395,10 +395,20 @@ ul span {
   color: rgba(243, 239, 239, 0.909);
   padding: 50px 20px;
   border: 1px solid rgb(49, 47, 47);
-  background-color: #1a1919;
+  background-image: url("/hero-bg.png");
+  background-position: 10px;
   transition:
     transform 0.35s ease,
     border 0.35s ease;
+}
+
+.service-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45); /* qui decidi la trasparenza */
+  pointer-events: none;
+  z-index: 0;
 }
 .service-card:hover {
   border: 1px solid #c69e58;
@@ -897,11 +907,11 @@ ul span {
   .i-nostri-servizi-2 {
     flex-direction: column;
   }
-  .i-nostri-servizi-1{
+  .i-nostri-servizi-1 {
     padding: 0px;
   }
-  .i-nostri-servizi-1 h2{
-    text-align:center;
+  .i-nostri-servizi-1 h2 {
+    text-align: center;
   }
   .esperienza {
     flex-direction: column;
@@ -941,14 +951,14 @@ ul span {
   .nostri-lavori {
     padding: 60px 10px;
   }
-.recensioni{
-  padding: 10px;
-  padding-top: 50px;
-  padding-bottom: 50px;
-}
-.recensioni-1 .unique{
-  margin-top: 30px;
-}
+  .recensioni {
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .recensioni-1 .unique {
+    margin-top: 30px;
+  }
 
   .recensioni .card {
     width: 90%;
@@ -964,13 +974,12 @@ ul span {
   .vieni-a-trovarci {
     flex-direction: column;
   }
-  .vieni-a-trovarci h2{
+  .vieni-a-trovarci h2 {
     text-align: center;
   }
   h2 {
     padding-left: 35px;
     padding-right: 35px;
-
   }
   .vieni-a-trovarci-2 {
     padding-top: 25px;
