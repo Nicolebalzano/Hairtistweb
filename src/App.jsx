@@ -42,12 +42,12 @@ function App() {
       <section id="chi-siamo">
         <ChiSiamo />
       </section>
-      <section id="i-nostri-servizi">
-        <OurServices />
-      </section>{" "}
       <section id="nostri-lavori">
         <NostriLavori />
       </section>
+      <section id="i-nostri-servizi">
+        <OurServices />
+      </section>{" "}
       <section id="esperienza">
         <Esperienza />
       </section>

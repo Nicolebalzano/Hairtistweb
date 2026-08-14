@@ -546,7 +546,6 @@ ul span {
   gap: 2rem;
   flex-wrap: wrap;
 }
-
 .recensioni .card {
   background-color: #0a0a0af0;
   color: #eee;
@@ -616,6 +615,7 @@ ul span {
 }
 .buttons-style-1 {
   color: #0e0d0dd7;
+  min-width: 250px;
   background-color: #c7a46a;
   padding: 15px;
   transition: transform 3.5 ease;
@@ -626,6 +626,7 @@ ul span {
 .buttons-style-2 {
   color: #e8e8e8;
   padding: 15px;
+  min-width: 250px;
   padding-right: 30px;
   border: 0.5px solid #e6e0e096;
   transition:
@@ -783,6 +784,7 @@ ul span {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 1;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -895,9 +897,11 @@ ul span {
   .i-nostri-servizi-2 {
     flex-direction: column;
   }
+  .i-nostri-servizi-1{
+    padding: 0px;
+  }
   .i-nostri-servizi-1 h2{
-    padding: 0;
-    text-align: center;
+    text-align:center;
   }
   .esperienza {
     flex-direction: column;
@@ -936,7 +940,9 @@ ul span {
   .nostri-lavori {
     padding: 60px 10px;
   }
-
+.recensioni{
+  padding: 10px;
+}
   .recensioni .card {
     width: 90%;
   }
