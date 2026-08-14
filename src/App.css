@@ -402,14 +402,6 @@ ul span {
     border 0.35s ease;
 }
 
-.service-card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.45); /* qui decidi la trasparenza */
-  pointer-events: none;
-  z-index: 0;
-}
 .service-card:hover {
   border: 1px solid #c69e58;
   transform: translateY(-8px) scale(1.02);
