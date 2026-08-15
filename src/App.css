@@ -203,7 +203,7 @@ div.prenota-btn:hover::before {
 }
 .front {
   z-index: 999;
-  padding-top: 100px;
+  padding-top: 10px;
   max-width: 60%;
 }
 .unique {
@@ -326,7 +326,7 @@ div.prenota-btn:hover::before {
   font-size: 1.2em;
 }
 .chi-siamo-img {
-  max-width: 60%;
+  max-width: 90%;
   height: auto;
   position: relative;
 }
@@ -339,7 +339,6 @@ div.prenota-btn:hover::before {
   top: -30px;
   left: 100px;
   background-color: #c69e58;
-  height: 100px;
   padding: 10px 20px;
   font-size: 1em;
   width: fit-content;
@@ -578,7 +577,7 @@ ul span {
   justify-content: space-between;
   font-size: 0.9rem;
 }
-.treatwell-link{
+.treatwell-link {
   text-decoration: none;
   color: #aaa;
 }
@@ -667,7 +666,8 @@ ul span {
 }
 .vieni-a-trovarci {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 100px;
   align-items: center;
   background-color: #0a0a0af6;
   padding-top: 50px;
@@ -712,11 +712,15 @@ ul span {
   font-weight: 600;
   color: #fff;
 }
+.vieni-a-trovarci-1 {
+  min-width: 35%;
+}
 .vieni-a-trovarci-2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  min-width: 35%;
   background-image: url("/book-now-bg.jpg");
   background-position: -100px -250px;
   gap: 10px;
@@ -775,7 +779,7 @@ ul span {
   .hero {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
-    min-height: 102vh;
+    min-height: 100vh;
     padding: 0px;
   }
   .logo {

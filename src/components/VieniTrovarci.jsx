@@ -68,10 +68,13 @@ const VieniTrovarci = () => {
           </div>
         </div>
         <div className="  fade-in-up vieni-a-trovarci-2">
-          <div className="  fade-in-up number">+39 389 887 1027</div>
           <p>CHIAMACI DIRETTAMENTE</p>
           <div className="  fade-in-up buttons-style">
-            <a className="  fade-in-up buttons-style-1">
+            <a
+              className="  fade-in-up buttons-style-1"
+              href="https://wa.me/393899238282?text=Ciao%20vorrei%20informazioni%20sui%20servizi"
+              target="_blank"
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -85,7 +88,10 @@ const VieniTrovarci = () => {
               </svg>
               Scrivici su whatsapp
             </a>
-            <a className="  fade-in-up buttons-style-2">
+            <a
+              href="tel:+393898871027"
+              className="  fade-in-up buttons-style-2"
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
