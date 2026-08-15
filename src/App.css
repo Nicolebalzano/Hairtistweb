@@ -58,7 +58,6 @@ header.scrolled {
 }
 .flex-link a {
   text-decoration: none;
-  font-family: "Arial", sans-serif;
   font-weight: bold;
 }
 header.top .flex-link a:hover {
@@ -89,7 +88,7 @@ header.top .flex-link a {
   position: fixed;
   top: 0;
   left: 0;
-  width: 95%;
+  width: 100%;
   min-height: 50vh;
   background: rgba(0, 0, 0, 0.69);
   display: flex;
@@ -182,7 +181,8 @@ div.prenota-btn:hover::before {
 /* HERO */
 .hero {
   background-image: url("/hero-bg-big.png");
-  min-height: 90vh;
+  min-height: 100vh;
+  padding: 50px;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -209,7 +209,6 @@ div.prenota-btn:hover::before {
 .unique {
   color: rgba(255, 200, 97, 0.65);
   text-shadow: 0 1px 5px rgba(0, 0, 0, 0.57);
-  font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 15px;
   letter-spacing: 4px;
@@ -224,19 +223,16 @@ div.prenota-btn:hover::before {
   text-shadow: 0 1px 5px rgba(20, 20, 20, 0.77);
 }
 .hero-title h2 {
-  font-size: 5em !important;
   color: rgba(240, 234, 234, 0.78);
-  font-size: 4em !important;
-  font-family: "Montserrat", sans-serif;
+  font-size: 3em !important;
   font-weight: 900;
   line-height: 1.1;
   letter-spacing: -1px;
   padding-bottom: 10px;
 }
 .subtitle {
-  font-family: "Raleway", sans-serif;
   font-weight: 400;
-  font-size: 1.3em;
+  font-size: 1rem;
   letter-spacing: 0.15em;
   line-height: 1.7;
   color: #c9c3c3a9;
@@ -297,12 +293,10 @@ div.prenota-btn:hover::before {
 .stripe-num {
   color: #cea25c;
   text-shadow: 0 1px 25px #0a0a0ad7;
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
   font-size: 1.7em;
 }
 .stripe-text {
-  font-family: "Raleway", sans-serif;
   font-size: 0.8em;
   font-weight: 400;
   letter-spacing: 0.15em;
@@ -315,7 +309,7 @@ div.prenota-btn:hover::before {
 /* CHI SIAMO */
 .chi-siamo {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   min-height: calc(100vh - 80px);
   padding-bottom: 60px;
   background-color: #171616;
@@ -332,7 +326,7 @@ div.prenota-btn:hover::before {
   font-size: 1.2em;
 }
 .chi-siamo-img {
-  max-width: 100%;
+  max-width: 60%;
   height: auto;
   position: relative;
 }
@@ -367,7 +361,6 @@ div.prenota-btn:hover::before {
 }
 ul span {
   color: rgba(255, 255, 255, 0.637);
-  font-family: "Poppins", sans-serif;
 }
 .i-nostri-servizi {
   display: flex;
@@ -408,9 +401,9 @@ ul span {
 }
 .service-card .icon {
   color: #c69e58;
+  background-color: #0e0d0d22;
 }
 .service-card h3 {
-  font-family: "Montserrat", sans-serif;
   color: #bf9a59f0;
   text-shadow: 1cap 6px 10px #171717c3;
   text-align: center;
@@ -418,12 +411,11 @@ ul span {
   padding: 5px;
 }
 .h3-p {
-  background-color: #1111114b;
+  background-color: #1111118c;
+  padding: 5px;
 }
 .servizi-p {
-  line-height: 30px;
   text-align: center;
-  font-family: cursive;
   text-shadow: 10px 3px 12px #141313c3;
   font-size: 0.9em;
   color: rgba(200, 193, 193, 0.927);
@@ -590,6 +582,7 @@ ul span {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 80vh;
   flex-wrap: wrap;
   flex-direction: column;
   background-image: url("/book-now.jpg");
@@ -624,7 +617,6 @@ ul span {
 }
 .buttons-style a {
   text-decoration: none;
-  font-family: "Montserrat", sans-serif;
 }
 .your-style .buttons-style-2 {
   color: black;
@@ -721,6 +713,8 @@ ul span {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background-image: url("/book-now-bg.jpg");
+  background-position: -100px -250px;
   gap: 10px;
   text-align: center;
   background-color: #171616;
@@ -737,7 +731,6 @@ ul span {
 .vieni-a-trovarci-2 .number {
   color: rgba(246, 238, 225, 0.916);
   font-size: 2rem;
-  font-family: "Montserrat", sans-serif;
   font-weight: 900;
 }
 .vieni-a-trovarci p {
@@ -779,6 +772,7 @@ ul span {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
     min-height: 100vh;
+    padding: 0px;
   }
   .logo {
     display: none;
@@ -804,7 +798,6 @@ ul span {
   }
   .hero-title {
     font-size: 0.68em;
-    font-family: "Montserrat", sans-serif;
     font-weight: 600;
     line-height: 1;
     text-align: center;

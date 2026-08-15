@@ -1,8 +1,8 @@
 const YourStyle = () => {
   return (
     <>
-      <div className="your-style">
-        <div className="linea"></div>
+      <div className="your-style  fade-in-up">
+        {/* <div className="linea"></div>
         <div className="hero-title">
           <h2>
             Il tuo stile <span className="capelli"> inizia qui.</span>
@@ -43,7 +43,7 @@ const YourStyle = () => {
           </a>
         </div>
 
-        <div className="linea"></div>
+        <div className="linea"></div> */}
       </div>
     </>
   );

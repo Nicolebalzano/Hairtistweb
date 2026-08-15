@@ -3,37 +3,37 @@ const ChiSiamo = () => {
     <>
       <div className="chi-siamo">
         {/* CHI SIAMO 1 */}
-        <div className="chi-siamo-1">
+        <div className="chi-siamo-1 fade-in-up">
           <img
             src="/fronte.neg.png"
             alt="donna che fa una messa in piega"
-            className="chi-siamo-img"
+            className="chi-siamo-img  fade-in-up"
           />
-          <div className="square-el">
+          <div className="square-el  fade-in-up">
             <span className="stripe-num">10+</span>
             <span className="stripe-text">ANNI DI ECCELLENZA</span>
           </div>
         </div>
 
         {/* CHI SIAMO 2 */}
-        <div className="chi-siamo-2">
+        <div className="chi-siamo-2  fade-in-up">
           {/* UNIQUE */}
-          <div className="unique">
+          <div className="unique  fade-in-up">
             <p>
-              <span className="line">─────</span> Chi siamo{" "}
+              <span className="line  fade-in-up">─────</span> Chi siamo{" "}
             </p>
           </div>
 
           {/* TITOLO */}
-          <div className="hero-title chi-siamo-title">
+          <div className="hero-title chi-siamo-title  fade-in-up">
             <h2>
-              Il tuo <span className="capelli">salone.</span>
+              Il tuo <span className="capelli  fade-in-up">salone.</span>
               <br />
               Il tuo comfort.
             </h2>{" "}
           </div>
           {/* PARAGRAFO */}
-          <p className="chi-siamo-p">
+          <p className="chi-siamo-p  fade-in-up">
             HAIRTIST nasce dalla convinzione che ogni capigliatura racconta una
             storia. <br />
             Il nostro team di stylisti certificati lavora con tecniche
@@ -54,7 +54,7 @@ const ChiSiamo = () => {
               <span>Esperienza sensoriale completa e immersiva</span>
             </li>
           </ul>
-          <div className="unique p-3">
+          <div className="unique p-3  fade-in-up">
             <span>
               SCOPRI DI PIU{" "}
               <svg

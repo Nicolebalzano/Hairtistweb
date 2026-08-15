@@ -16,9 +16,9 @@ const Hero = () => {
           </div>
           <div className="hero-title  fade-in-up">
             <h2>
-              Non facciamo solo i <span className="capelli  fade-in-up">capelli.</span>
+              Non facciamo solo i <span className="capelli fade-in-up">capelli</span>
               <br />
-              Creaiamo esperienze uniche.
+              Creaiamo esperienze <span className="capelli">uniche</span>.
             </h2>{" "}
           </div>
           <div>

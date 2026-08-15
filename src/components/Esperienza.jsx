@@ -4,25 +4,25 @@ const Esperienza = () => {
     <>
       <div className="esperienza">
         {/* ESPERIENZA 1 */}
-        <div className="esperienza-1">
-          <div className="unique">
+        <div className="  fade-in-up esperienza-1">
+          <div className="  fade-in-up unique">
             <p>
-              <span className="line">─────</span> CIO CHE CI RENDE UNICI{" "}
+              <span className="  fade-in-up line">─────</span> CIO CHE CI RENDE UNICI{" "}
             </p>
           </div>
 
-          <div className="hero-title">
+          <div className="  fade-in-up hero-title">
             <h2>
               Un'esperienza senza <br />
-              <span className="capelli">compromessi</span>.
+              <span className="  fade-in-up capelli">compromessi</span>.
             </h2>{" "}
           </div>
-          <div className="esperienza-logo-text">
+          <div className="  fade-in-up esperienza-logo-text">
             <div>
-              <div className="icon">
+              <div className="  fade-in-up icon">
                 <Scissors />
               </div>
-              <div className="text">
+              <div className="  fade-in-up text">
                 <h5>Tecnologie Innovative</h5>
                 <p>
                   Strumenti e tecniche di ultima generazione per risultati
@@ -31,11 +31,11 @@ const Esperienza = () => {
               </div>
             </div>
             <div>
-              <div className="icon">
+              <div className="  fade-in-up icon">
                 {" "}
                 <Sparkles />
               </div>
-              <div className="text">
+              <div className="  fade-in-up text">
                 <h5>Prodotti Premium</h5>
                 <p>
                   Collaboriamo con i brand più esclusivi: Oribe, Kérastase,
@@ -44,11 +44,11 @@ const Esperienza = () => {
               </div>
             </div>
             <div>
-              <div className="icon">
+              <div className="  fade-in-up icon">
                 {" "}
                 <Shield />
               </div>
-              <div className="text">
+              <div className="  fade-in-up text">
                 <h5>Consulenza Personalizzata</h5>
                 <p>
                   Ogni cliente riceve un'analisi approfondita. Il tuo look è
@@ -60,16 +60,16 @@ const Esperienza = () => {
         </div>
 
         {/* ESPERIENZA 2 */}
-        <div className="esperienza-2">
+        <div className="  fade-in-up esperienza-2">
           <div>
             <img
               src="/hair-long.jpg"
               alt=""
-              className="img-1-esperienza"
+              className="  fade-in-up img-1-esperienza"
             />
           </div>
           <div>
-            <div className="img-2-flex">
+            <div className="  fade-in-up img-2-flex">
               <img src="/hair-long.jpg" alt="" />
               <img src="/hair-long.jpg" alt="" />
             </div>

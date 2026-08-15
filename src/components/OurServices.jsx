@@ -37,24 +37,24 @@ const OurServices = () => {
   return (
     <>
       <div className="i-nostri-servizi">
-        <div className="i-nostri-servizi-1">
-          <div className="unique">
+        <div className="  fade-in-up i-nostri-servizi-1">
+          <div className="  fade-in-up unique">
             <p>
-              <span className="line">─────</span> I nostri servizi{" "}
-              <span className="line">─────</span>
+              <span className="  fade-in-up line">─────</span> I nostri servizi{" "}
+              <span className="  fade-in-up line">─────</span>
             </p>
           </div>
-          <div className="hero-title">
+          <div className="  fade-in-up hero-title">
             <h2>
               <div></div> Ogni dettaglio{" "}
-              <span className="capelli">pensato per te</span>.
+              <span className="  fade-in-up capelli">pensato per te</span>.
             </h2>{" "}
           </div>
         </div>
-        <div className="i-nostri-servizi-2">
+        <div className="  fade-in-up i-nostri-servizi-2">
           {cards.map((card, index) => (
             <div
-              className="service-card"
+              className="  fade-in-up service-card"
               key={index}
               style={{
                 backgroundImage: `url(${card.bg})`,
@@ -62,16 +62,16 @@ const OurServices = () => {
                 backgroundPosition: "center",
               }}
             >
-              <div className="icon">
+              <div className="  fade-in-up icon">
                 <card.icona size={32} strokeWidth={1.5} />
               </div>
-              <div className="h3-p">
+              <div className="  fade-in-up h3-p">
                 {" "}
                 <h3>{card.titolo}</h3>
-                <p className="servizi-p">{card.paragrafo}</p>
+                <p className="  fade-in-up servizi-p">{card.paragrafo}</p>
               </div>
 
-              <span className="price unique">{card.prezzo}</span>
+              <span className="  fade-in-up price unique">{card.prezzo}</span>
             </div>
           ))}
         </div>

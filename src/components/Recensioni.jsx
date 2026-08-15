@@ -23,31 +23,31 @@ const Recensioni = () => {
 
   return (
     <div className="recensioni">
-      <div className="recensioni-1">
-        <div className="unique">
+      <div className="  fade-in-up recensioni-1">
+        <div className="  fade-in-up unique">
           <p>
-            <span className="line">─────</span> RECENSIONI{" "}
-            <span className="line">─────</span>
+            <span className="  fade-in-up line">─────</span> RECENSIONI{" "}
+            <span className="  fade-in-up line">─────</span>
           </p>
         </div>
-        <div className="hero-title">
+        <div className="  fade-in-up hero-title">
           <h2>
-            Lo dicono i <span className="capelli">clienti.</span>
+            Lo dicono i <span className="  fade-in-up capelli">clienti.</span>
           </h2>
         </div>
       </div>
 
-      <div className="recensioni-2">
+      <div className="  fade-in-up recensioni-2">
         {recensioniData.map((recensione, index) => (
-          <div className="card" key={index}>
-            <div className="stars">
+          <div className="  fade-in-up card" key={index}>
+            <div className="  fade-in-up stars">
               {[...Array(recensione.stars)].map((_, i) => (
                 <Star key={i} size={16} color="#d4af37" fill="#d4af37" />
               ))}
             </div>
-            <p className="text">“{recensione.text}”</p>
+            <p className="  fade-in-up text">“{recensione.text}”</p>
             <hr />
-            <div className="footer">
+            <div className="  fade-in-up footer">
               <strong>{recensione.name}</strong>
               <span>{recensione.date}</span>
             </div>
