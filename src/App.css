@@ -182,7 +182,7 @@ div.prenota-btn:hover::before {
 /* HERO */
 .hero {
   background-image: url("/hero-bg-big.png");
-  min-height: 100vh;
+  min-height: 90vh;
   background-size: cover;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
@@ -418,7 +418,6 @@ ul span {
   padding: 5px;
 }
 .h3-p {
-  box-shadow: 3px 1px 10px rgb(47, 46, 46);
   background-color: #1111114b;
 }
 .servizi-p {
@@ -675,7 +674,8 @@ ul span {
   justify-content: space-evenly;
   align-items: center;
   background-color: #0a0a0af6;
-  padding: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 .vieni-a-trovarci .hero-title {
   font-size: 0.8rem;
