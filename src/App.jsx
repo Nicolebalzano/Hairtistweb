@@ -54,9 +54,6 @@ function App() {
       <section id="recensioni">
         <Recensioni />
       </section>
-      <section id="tuo-stile">
-        <YourStyle />
-      </section>
       <section id="vieni-a-trovarci">
         <VieniTrovarci />
       </section>
