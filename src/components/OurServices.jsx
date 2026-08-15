@@ -5,7 +5,7 @@ const OurServices = () => {
       icona: Scissors,
       titolo: "Taglio Premium",
       paragrafo:
-        "Studiato per esaltare la tua struttura ossea. Ogni taglio è un'opera d'arte personalizzata.",
+        "Studiato per esaltare la tua struttura. Ogni taglio è un'opera d'arte personalizzata.",
       prezzo: "Da €45",
       bg: "/taglio.png.jpg",
     },

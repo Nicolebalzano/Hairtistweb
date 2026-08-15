@@ -38,8 +38,7 @@ const Esperienza = () => {
               <div className="  fade-in-up text">
                 <h5>Prodotti Premium</h5>
                 <p>
-                  Collaboriamo con i brand più esclusivi: Oribe, Kérastase,
-                  Davines, Wella Professional.
+                  Ogni prodotto è pensato per prendersi cura di te e dei tuoi capelli.
                 </p>
               </div>
             </div>

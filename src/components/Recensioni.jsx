@@ -3,21 +3,21 @@ const Recensioni = () => {
   const recensioniData = [
     {
       stars: 5,
-      text: "Un'esperienza straordinaria. Finalmente un salone che capisce davvero cosa voglio. Il taglio è perfetto, tornerò sempre.",
-      name: "Valentina M.",
-      date: "Maggio 2025",
+      text: "Mi sono trovata benissimo, ambiente familiare, accogliente, professionalità, ottimo rapporto qualità prezzo",
+      name: "Lucia",
+      date: "Luglio 2026",
     },
     {
       stars: 5,
-      text: "Il balayage più bello che abbia mai avuto. Professionalità e cura al massimo livello. Lo consiglio a tutte.",
-      name: "Sofia R.",
-      date: "Aprile 2025",
+      text: "Personale cordiale e preparato, locale accogliente, servizio molto rapido. Costi molto buoni.",
+      name: "Francesco",
+      date: "Aprile 2024",
     },
     {
       stars: 5,
-      text: "Ambiente elegante, staff eccezionale. Mi sento trasformata ogni volta che esco da HAIRTIST. Un lusso accessibile.",
-      name: "Laura B.",
-      date: "Maggio 2025",
+      text: "Esperienza molto positiva!Francesco è stato super disponibile con orario e giorni,gentile e simpatico. Nonostante la mia richiesta fosse una sfida (sfumature rosa), ha fatto un ottimo lavoro. Sto ricevendo molti complimenti!grazie e alla prossima",
+      name: "Hilary",
+      date: "Giugno 2026",
     },
   ];
 
@@ -54,6 +54,7 @@ const Recensioni = () => {
           </div>
         ))}
       </div>
+      <a href="https://www.treatwell.it/salone/hairtist-parrucchiere-unisex/" className="treatwell-link">Leggi di più su treatwell</a>
     </div>
   );
 };

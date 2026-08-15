@@ -37,7 +37,10 @@ const NostriLavori = () => {
           </div>
         </div>
         <div className="  fade-in-up insta">
-          <a href="#" className="  fade-in-up unique">
+          <a
+            href="https://www.instagram.com/hairtist.firenze/"
+            className="  fade-in-up unique"
+          >
             {" "}
             <svg
               xmlns="http://www.w3.org/2000/svg"

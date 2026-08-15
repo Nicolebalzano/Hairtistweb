@@ -578,6 +578,10 @@ ul span {
   justify-content: space-between;
   font-size: 0.9rem;
 }
+.treatwell-link{
+  text-decoration: none;
+  color: #aaa;
+}
 .your-style {
   display: flex;
   justify-content: center;
@@ -771,7 +775,7 @@ ul span {
   .hero {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
-    min-height: 100vh;
+    min-height: 102vh;
     padding: 0px;
   }
   .logo {
@@ -795,6 +799,7 @@ ul span {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    color: rgb(230, 221, 203);
   }
   .hero-title {
     font-size: 0.68em;
@@ -934,15 +939,15 @@ ul span {
     display: block;
   }
   .esperienza-logo-text {
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
   }
   .esperienza .hero-title {
     font-size: 0.7em;
   }
   .esperienza-logo-text .icon {
     padding: 10px;
-    margin-right: 10px;
+    margin-right: 5px;
     max-height: 50px;
     margin-bottom: 0px;
   }

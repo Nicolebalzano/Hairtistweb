@@ -30,9 +30,12 @@ const Footer = () => {
             © 2025 HAIRTIST. Tutti i diritti riservati.
           </span>
         </div>
-        <div className="icon-box">
+        <a
+          href="https://www.instagram.com/hairtist.firenze/"
+          className="icon-box"
+        >
           <InstagramBootstrap size={24} />
-        </div>
+        </a>
       </div>
     </>
   );

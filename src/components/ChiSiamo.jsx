@@ -38,7 +38,7 @@ const ChiSiamo = () => {
             storia. <br />
             Il nostro team di stylisti certificati lavora con tecniche
             d'avanguardia e materiali selezionati per trasformare la tua visione
-            in realtà <br /> con precisione millimetrica e passione autentica.
+            in realtà con precisione millimetrica e passione autentica.
           </p>
           <ul>
             <li>
@@ -48,7 +48,7 @@ const ChiSiamo = () => {
               <span>Tecnici certificati con formazione internazionale</span>
             </li>
             <li>
-              <span>Prodotti premium selezionati per ogni tipo di capello</span>
+              <span>Prodotti selezionati per ogni tipo di capello</span>
             </li>
             <li>
               <span>Esperienza sensoriale completa e immersiva</span>
