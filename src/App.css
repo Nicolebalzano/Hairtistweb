@@ -406,15 +406,28 @@ ul span {
   border: 1px solid #c69e58;
   transform: translateY(-8px) scale(1.02);
 }
+.service-card .icon {
+  color: #c69e58;
+}
 .service-card h3 {
   font-family: "Montserrat", sans-serif;
+  color: #bf9a59f0;
+  text-shadow: 1cap 6px 10px #171717c3;
+  text-align: center;
   font-size: 1.1em;
   padding: 5px;
 }
+.h3-p {
+  box-shadow: 3px 1px 10px rgb(47, 46, 46);
+  background-color: #1111114b;
+}
 .servizi-p {
   line-height: 30px;
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 10px 3px 12px #141313c3;
   font-size: 0.9em;
-  color: rgba(219, 215, 215, 0.692);
+  color: rgba(200, 193, 193, 0.927);
 }
 .price.unique {
   font-size: 0.8em;
@@ -476,6 +489,7 @@ ul span {
 .img-1-esperienza {
   height: 100%;
   object-fit: cover;
+  object-position: 10px;
 }
 .esperienza-logo-text .icon {
   text-align: center;
@@ -579,10 +593,17 @@ ul span {
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
-  background-color: #0e0d0d;
+  background-image: url("/book-now.jpg");
+  background-position: 10px;
 }
 .your-style h2 {
   margin-bottom: 30px;
+  color: #131212;
+  text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.758);
+}
+.your-style .capelli {
+  color: #131212;
+  text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.758);
 }
 .linea {
   margin-top: 111px;
@@ -593,16 +614,15 @@ ul span {
   background: linear-gradient(
     to right,
     rgba(255, 215, 0, 0.1),
-    #c69e58,
+    rgba(90, 79, 79, 0.888),
     rgba(255, 215, 0, 0.1)
   );
 }
 .your-style p {
   text-align: center;
-  color: rgba(218, 212, 212, 0.528);
+  color: rgba(18, 17, 17, 0.931);
   font-size: 1.1rem;
-  letter-spacing: 1px;
-  font-family: "Arial", sans-serif;
+  font-weight: bolder;
 }
 .buttons-style {
   display: flex;
@@ -614,6 +634,14 @@ ul span {
 .buttons-style a {
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
+}
+.your-style .buttons-style-2 {
+  color: black;
+  border: 1.3px solid #3c393994;
+  background-color: rgba(245, 245, 245, 0.571);
+}
+.your-style .buttons-style-1 {
+  background-color: rgba(90, 79, 79, 0.883);
 }
 .buttons-style-1 {
   color: #0e0d0dd7;
@@ -962,6 +990,18 @@ ul span {
   }
   .your-style.hero-title {
     text-align: center;
+  }
+  .your-style {
+    background-position: -150px;
+  }
+  .your-style h2,
+  .your-style .capelli {
+    color: #131212;
+    text-shadow: 1px 1px 7px rgba(255, 255, 255, 0.534);
+  }
+  .your-style p {
+    background-color: rgba(194, 193, 193, 0.825);
+    padding: 25px;
   }
   .vieni-a-trovarci {
     flex-direction: column;

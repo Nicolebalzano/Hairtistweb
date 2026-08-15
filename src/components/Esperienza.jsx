@@ -63,15 +63,15 @@ const Esperienza = () => {
         <div className="esperienza-2">
           <div>
             <img
-              src="/chi-siamo-piega.png"
+              src="/hair-long.jpg"
               alt=""
               className="img-1-esperienza"
             />
           </div>
           <div>
             <div className="img-2-flex">
-              <img src="/hero-bg.png" alt="" />
-              <img src="/hero-bg.png" alt="" />
+              <img src="/hair-long.jpg" alt="" />
+              <img src="/hair-long.jpg" alt="" />
             </div>
           </div>
         </div>

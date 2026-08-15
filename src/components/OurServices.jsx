@@ -65,8 +65,12 @@ const OurServices = () => {
               <div className="icon">
                 <card.icona size={32} strokeWidth={1.5} />
               </div>
-              <h3>{card.titolo}</h3>
-              <p className="servizi-p">{card.paragrafo}</p>
+              <div className="h3-p">
+                {" "}
+                <h3>{card.titolo}</h3>
+                <p className="servizi-p">{card.paragrafo}</p>
+              </div>
+
               <span className="price unique">{card.prezzo}</span>
             </div>
           ))}
