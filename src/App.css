@@ -366,6 +366,7 @@ ul span {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-top: 30px;
   background-color: #121111;
   min-height: 100vh;
 }
@@ -779,7 +780,6 @@ ul span {
   .hero {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
-    min-height: 100vh;
     padding: 0px;
   }
   .logo {
@@ -932,6 +932,7 @@ ul span {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
   }
   .esperienza-2 {
     padding-top: 50px;

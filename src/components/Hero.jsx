@@ -11,9 +11,9 @@ const Hero = () => {
         <div className="front">
           <div className="unique  fade-in-up">
             <p>
-              <span className="line">─────</span> UNIQUE HAIR SALON{" "}
+              <span className="line">──</span> UNIQUE HAIR SALON{" "}
               <span className="line">──</span> FIRENZE{" "}
-              <span className="line">─────</span>
+              <span className="line">──</span>
             </p>
           </div>
           <div className="hero-title  fade-in-up">
