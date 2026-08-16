@@ -781,6 +781,7 @@ ul span {
     background-image: url("/hero-bg.png");
     background-color: rgba(0, 0, 0, 0.89);
     padding: 0px;
+    min-height: 105vh;
   }
   .logo {
     display: none;
