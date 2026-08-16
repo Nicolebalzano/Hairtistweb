@@ -783,7 +783,7 @@ ul span {
     padding: 0px;
     min-height: 100vh;
   }
-  .front{
+  .hero::before{
     min-height: 100vh;
   }
   .logo {
